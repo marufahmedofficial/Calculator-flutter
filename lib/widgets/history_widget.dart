@@ -1,7 +1,8 @@
-import 'package:calculator_app/provider/calculation_provider.dart';
-import 'package:calculator_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../provider/calculation_provider.dart';
+import 'custom_button.dart';
 
 /// [HistoryWidget] shows recent 10 calculations in the UI
 class HistoryWidget extends StatelessWidget {

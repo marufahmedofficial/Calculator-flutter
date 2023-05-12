@@ -1,6 +1,7 @@
-import 'package:calculator_app/models/models.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../models/models.dart';
 
 /// [CalculationProvider] used to calculate the numbers
 class CalculationProvider extends ChangeNotifier {

@@ -1,6 +1,6 @@
-import 'package:calculator_app/provider/calculation_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../provider/calculation_provider.dart';
 
 /// [CustomButton] used to create all the calculator buttons
 class CustomButton extends StatelessWidget {

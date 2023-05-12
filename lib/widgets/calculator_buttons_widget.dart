@@ -1,5 +1,6 @@
-import 'package:calculator_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
+
+import 'custom_button.dart';
 
 /// [CalculatorButtonsWidget] to show all the calculation related buttons on the UI
 class CalculatorButtonsWidget extends StatelessWidget {

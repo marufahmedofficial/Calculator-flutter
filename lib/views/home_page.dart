@@ -1,7 +1,9 @@
-import 'package:calculator_app/provider/provider.dart';
-import 'package:calculator_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../provider/calculation_provider.dart';
+import '../provider/theme_provider.dart';
+import '../widgets/calculator_buttons_widget.dart';
+import '../widgets/history_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
