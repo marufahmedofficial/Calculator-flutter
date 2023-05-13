@@ -27,9 +27,8 @@ class CustomButton extends StatelessWidget {
               ? Colors.white
               : btnText == "="
                   ? Colors.green
-                  : Colors.grey.shade900,elevation: 4,
-          shape: const CircleBorder(
-          ),
+                  : Colors.grey.shade900,
+          shape: const CircleBorder(),
         ),
         child: Text(
           btnText == '*' ? 'x' : btnText,
