@@ -74,7 +74,7 @@ class _Header extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             SizedBox(
-              height: 80,
+              height: 110,
               child: Align(
                 alignment: Alignment.centerRight,
                 child: Text(
@@ -89,7 +89,7 @@ class _Header extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 5,
+              height: 4,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
